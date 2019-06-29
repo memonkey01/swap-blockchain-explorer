@@ -70,12 +70,12 @@ namespace xmreg
                 ("concurrency,c", value<size_t>()->default_value(0),
                  "number of threads handling http queries. Default is 0 which means it is based you on the cpu")
                 ("bc-path,b", value<string>(),
-                 "path to lmdb folder of the blockchain, e.g., ~/.bitmonero/lmdb")
+                 "path to lmdb folder of the blockchain, e.g., ~/.swap/lmdb")
                 ("ssl-crt-file", value<string>(),
                  "path to crt file for ssl (https) functionality")
                 ("ssl-key-file", value<string>(),
                  "path to key file for ssl (https) functionality")
-                ("deamon-url,d", value<string>()->default_value("http:://127.0.0.1:18081"),
+                ("deamon-url,d", value<string>()->default_value("http:://127.0.0.1:19950"),
                  "Monero deamon url");
 
 
