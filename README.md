@@ -20,7 +20,7 @@ Welcome to the swap-blockchain-explorer wiki!
 
 The binaries compiled at ``~/swap/build/release/bin/``
 
-Sync the Daemon with ``./swapd``
+Run and sync the Daemon with ``./swapd``
 
 ***
 
