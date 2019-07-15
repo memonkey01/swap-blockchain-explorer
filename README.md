@@ -20,6 +20,8 @@ Welcome to the swap-blockchain-explorer wiki!
 
 The binaries compiled at ``~/swap/build/release/bin/``
 
+Sync the Daemon with ``./swapd``
+
 ***
 
 ## Compile and run the swapblocks
@@ -35,6 +37,7 @@ The binaries compiled at ``~/swap/build/release/bin/``
     ./swapblocks -x 127.0.0.1 --testnet-url https://swaptest.coinscope.cc --enable-emission-monitor --enable-autorefresh 
     
     optional --enable-block-cache --enable-tx-cache --enable-json-api --enable-pusher
+    
 
 Open explorer with your browser:
 http://127.0.0.1:8081
